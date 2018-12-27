@@ -1,0 +1,64 @@
+body
+  margin: 0
+  padding: 0
+  color: #2c2f33
+  background-color: #f6f4f9
+  overflow-x: hidden
+
+a
+  text-decoration: none
+  color: inherit
+  &:hover
+    text-decoration: none
+    color: inherit
+
+.container
+  width: 100%
+  padding-right: 15px
+  padding-left: 15px
+  margin-right: auto
+  margin-left: auto
+  box-sizing: border-box
+
+@media (min-width: 576px)
+  .container
+    max-width: 540px
+
+@media (min-width: 768px)
+  .container
+    max-width: 720px
+
+@media (min-width: 992px)
+  .container
+    max-width: 960px
+
+@media (min-width: 1200px)
+  .container
+    max-width: 1140px
+
+.pos-relative
+  position: relative
+
+.btn
+  display: block
+  padding: 14px 25px 12px
+  font-size: 15px
+  font-family: 'Lato', sans-serif
+  font-weight: 700
+  text-transform: uppercase
+  color: #ffffff
+  background-color: #ce4738
+  border: none
+  border-radius: 25px
+  cursor: pointer
+  outline: none
+  transition: all ease .5s
+  &:hover
+    color: rgba(255,255,255,.7)
+    transition: all ease .5s
+
+.body-overflow
+  overflow: hidden
+
+//.news, .header
+//  overflow-x: hidden

@@ -1,6 +1,20 @@
 extends ../components/layout-default/layout-default
+include ../components/header/header
+include ../components/services/services
+include ../components/service-packages/service-packages
+include ../components/advantages/advantages
+include ../components/partners/partners
+include ../components/news/news
+include ../components/footer/footer
 
 block head
     - var pageTitle = 'Index Page';
 
 block content
+  +header()
+  +services()
+  +service-packages()
+  +advantages()
+  +partners()
+  +news()
+  +footer()

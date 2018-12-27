@@ -1,0 +1,54 @@
+mixin header()
+  +b('header').header
+    +b.container.pos-relative
+      +b('img')(src='assets/images/circle.png' alt='').header__circle-top-left
+      +b('img')(src='assets/images/circle.png' alt='').header__circle-right
+      +b.header__left-text
+        +e('hr')
+        +e('span') более 2564 постоянных клиентов
+      +b('ul').nav-menu.pos-relative
+        +e('li')
+          +b('button').hamb-menu.jsActiveMenu
+            +e('span')
+            +e('span')
+            +e('span')
+          +b('ul').second-menu.jsSecondMenu
+            +e('li').link.mob-menu
+              +e('a')(href='#') Новости
+            +e('li').link.mob-menu
+              +e('a')(href='#') О нас
+            +e('li').link.mob-menu
+              +e('a')(href='#') Цены
+            +e('li').link.mob-menu
+              +e('a')(href='#') Партнеры
+            +e('li').link.mob-menu
+              +e('a')(href='#') Контакты
+            +e('li').link
+              +e('a')(href='#') Новости
+            +e('li').link
+              +e('a')(href='#') О нас
+            +e('li').link
+              +e('a')(href='#') Цены
+            +e('li').link
+              +e('a')(href='#') Партнеры
+        +e('li').link.pc-menu
+          +e('a')(href='#') Новости
+        +e('li').link.pc-menu
+          +e('a')(href='#') О нас
+        +e('li').link.pc-menu
+          +e('a')(href='#') Цены
+        +e('li').link.pc-menu
+          +e('a')(href='#') Партнеры
+        +e('li').link.pc-menu
+          +e('a')(href='#') Контакты
+      +b.header-content.pos-relative
+        +e.left
+          +e('h1').left__head Берем на себя
+          +e('h3').left__comment бухгалтерию и рутинные задачи вашего бизнесса
+          +e('p').left__text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            | labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          +b('button').btn Подробнее
+          +b('button').scroll
+            +e('img')(src='assets/images/mouse.svg' alt='')
+            | Листайте вниз
+        +e('img')(src='assets/images/headet_image.png' alt='').right

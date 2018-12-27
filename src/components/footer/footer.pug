@@ -1,0 +1,51 @@
+mixin footer()
+  +b('footer').footer
+    +b.container
+      +b.f-social
+        +e('a')(href='#')
+          +e('img')(src='assets/images/vk-social-network-logo.svg' alt='')
+        +e('a')(href='#')
+          +e('img')(src='assets/images/facebook-logo.svg' alt='')
+        +e('a')(href='#')
+          +e('img')(src='assets/images/insta.svg' alt='')
+      +b('ul').f-menu
+        +e('li')
+          +e('a')(href='#') Бухгалтерское сопровождение
+        +e('li')
+          +e('a')(href='#') Аутсорсинг бухгалтерии
+        +e('li')
+          +e('a')(href='#') Бухгалтерские консультации
+        +e('li')
+          +e('a')(href='#') Регистрация ООО
+        +e('li')
+          +e('a')(href='#') Регистрация ИП
+        +e('li')
+          +e('a')(href='#') Бухгалтерское сопровождение ООО
+        +e('li')
+          +e('a')(href='#') Бухгалтерское сопровождение ИП
+        +e('li')
+          +e('a')(href='#') Мой заказ
+        +e('li')
+          +e('a')(href='#') Заявка
+        +e('li')
+          +e('a')(href='#') Контакты
+        +e('li')
+          +e('a')(href='#') Цены
+        +e('li')
+          +e('a')(href='#') Блог
+        +e('li')
+          +e('a')(href='#') Оферта для ОСН
+        +e('li')
+          +e('a')(href='#') Оферта для УСН
+      +b.f-contacts
+        +e('p').head Контакты
+        +e('a')(href='https://goo.gl/maps/wJJAShH6oHT2', target='_blank').addr
+          +e('img')(src='assets/images/addr.svg' alt='')
+          | 127051, Москва
+        +e('p').addr2 ул. Артема 17, стр. 28
+        +e('a')(href='tel:88002503052').phone
+          +e('img')(src='assets/images/telephone.svg' alt='')
+          | 8 (800) 250-3-052
+        +e('a')(href='mailto:info@finguru.com').mail
+          +e('img')(src='assets/images/at.svg' alt='')
+          | info@finguru.com

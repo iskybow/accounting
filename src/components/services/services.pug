@@ -1,0 +1,65 @@
+mixin services()
+  +b('section').services
+    +b.container.pos-relative
+      +b.services-left
+        +e('h2').head Lorem ipsum dolor sit amet
+        +e('p').text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+          | labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          | aliquip ex ea commodo consequat.
+        +e('p').text Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        +b('button').btn Подробнее
+      +b.services-right.pos-relative
+        +e('img')(src='assets/images/dots.png' alt='').dots
+        +e('h2').head Наши услуги
+        +e.items
+          +e('a')(href='#').items__item
+            +e('img')(src='assets/images/services__item_1.png' alt='').items__item__black
+            +e('img')(src='assets/images/services__item_1w.png' alt='').items__item__white
+            +e('p') Регистрация фирм
+            +e('hr')
+            +e('span') Ведение ООО Ведение ИП Нулевая отчетность
+          +e('a')(href='#').items__item
+            +e('img')(src='assets/images/services__item_2.png' alt='').items__item__black
+            +e('img')(src='assets/images/services__item_2w.png' alt='').items__item__white
+            +e('p') Ведение бухгалтерии
+            +e('hr')
+            +e('span') Ведение ООО Ведение ИП Нулевая отчетность
+          +e('a')(href='#').items__item
+            +e('img')(src='assets/images/services__item_3.png' alt='').items__item__black
+            +e('img')(src='assets/images/services__item_3w.png' alt='').items__item__white
+            +e('p') Зарплата и кадры
+            +e('hr')
+            +e('span') Ведение ООО Ведение ИП Нулевая отчетность
+          +e('a')(href='#').items__item
+            +e('img')(src='assets/images/services__item_4.png' alt='').items__item__black
+            +e('img')(src='assets/images/services__item_4w.png' alt='').items__item__white
+            +e('p') Профессиональные консультации
+            +e('hr')
+            +e('span') Ведение ООО Ведение ИП Нулевая отчетность
+    +b.container
+      +b.services-bottom
+        +e.item
+          +e.item__num
+            +e('img')(src='assets/images/services_bottom_1.png' alt='')
+            +e('span') 2365
+          +e('p') Довольных клиентов<br> за время работы компании
+        +e.item
+          +e.item__num
+            +e('img')(src='assets/images/services_bottom_2.png' alt='')
+            +e('span') 107
+          +e('p') Крупных компаний<br> с нами ежемесячно
+        +e.item
+          +e.item__num
+            +e('img')(src='assets/images/services_bottom_3.png' alt='')
+            +e('span').item__num__right 27
+          +e('p') Миллионов руб. в год<br> экономии на налогах
+        +e.item
+          +e.item__num
+            +e('img')(src='assets/images/services_bottom_4.png' alt='')
+            +e('span').item__num__right 87%
+          +e('p') Выигранных судебных<br> дел разной сложности
+        +e.item
+          +e.item__num
+            +e('img')(src='assets/images/services_bottom_5.png' alt='')
+            +e('span').item__num__right 93%
+          +e('p') Клиентов обращаются<br> к нам повторно
